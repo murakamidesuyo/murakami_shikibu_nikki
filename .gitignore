@@ -1,0 +1,29 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# 仮想環境
+venv/
+.env
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# エディタ・OS依存
+.vscode/
+.idea/
+.DS_Store
+
+# Django特有
+db.sqlite3
+*.log
+
+# === 追加のおすすめ ===
+# 静的ファイルの集約先
+staticfiles/
+
+# ユーザーアップロードのメディアファイル
+media/
+
+# テスト・解析キャッシュ
+.pytest_cache/
+.mypy_cache/
+.coverage
